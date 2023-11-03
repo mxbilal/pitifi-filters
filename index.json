@@ -1,0 +1,1424 @@
+[
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Apartment",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T13:33:51.703Z",
+    "description": "description here",
+    "details": {
+      "availability": "Available",
+      "build": "2000-12-31T22:00:00.000Z",
+      "floor": "Ground",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 81
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 2,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": true,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": false,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "49",
+    "image": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_bgffffff_box_smart1_3.jpg",
+    "imagewebp": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_h2_box_smart1_3.webp",
+    "lastmod": "2023-10-21T13:33:51.739Z",
+    "location": {
+      "address": "xcvxc",
+      "exact_location": false,
+      "location": "Chicago",
+      "map": "{\"type\":\"Point\",\"coordinates\":[23.54533,38.34544545]}",
+      "showmap": true
+    },
+    "subtype": "Buildable land",
+    "type": "Land",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Home",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Shop",
+    "type": "Commerical",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Apartment",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Apartment",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Apartment",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T13:33:51.703Z",
+    "description": "ardescription here",
+    "details": {
+      "availability": "Available",
+      "build": "2000-12-31T22:00:00.000Z",
+      "floor": "Ground",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 8
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 2,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": true,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": false,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "49",
+    "image": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_bgffffff_box_smart1_3.jpg",
+    "imagewebp": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_h2_box_smart1_3.webp",
+    "lastmod": "2023-10-21T13:33:51.739Z",
+    "location": {
+      "address": "xcvxc",
+      "exact_location": false,
+      "location": "Chicago",
+      "map": "{\"type\":\"Point\",\"coordinates\":[23.54533,38.34544545]}",
+      "showmap": true
+    },
+    "subtype": "Buildable land",
+    "type": "Land",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Home",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Shop",
+    "type": "Commerical",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Apartment",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Office",
+    "type": "Commerical",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Apartment",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T13:33:51.703Z",
+    "description": "description here",
+    "details": {
+      "availability": "Available",
+      "build": "2000-12-31T22:00:00.000Z",
+      "floor": "Ground",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 81
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 2,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": true,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": false,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "49",
+    "image": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_bgffffff_box_smart1_3.jpg",
+    "imagewebp": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_h2_box_smart1_3.webp",
+    "lastmod": "2023-10-21T13:33:51.739Z",
+    "location": {
+      "address": "xcvxc",
+      "exact_location": false,
+      "location": "Chicago",
+      "map": "{\"type\":\"Point\",\"coordinates\":[23.54533,38.34544545]}",
+      "showmap": true
+    },
+    "subtype": "Buildable land",
+    "type": "Land",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Home",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Shop",
+    "type": "Commerical",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Apartment",
+    "type": "Residential",
+    "visible": true
+  },
+  {
+    "date": "2023-10-21T14:00:53.202Z",
+    "description": "Central area next to mcgill universety",
+    "details": {
+      "availability": "Available",
+      "build": "2023-12-31T22:00:00.000Z",
+      "distancefromcentre": 1500,
+      "floor": "3rd",
+      "price": 100000,
+      "renovated": "",
+      "sqm": 52
+    },
+    "features": {
+      "bathrooms": 1,
+      "bedroom": 1,
+      "construction": {
+        "neoclassical": false,
+        "penthouse": false,
+        "preserved": false,
+        "renovated": false,
+        "requires_renovation": false,
+        "unfinished": false
+      },
+      "external": {
+        "awning": false,
+        "balcony": false,
+        "corner": false,
+        "disability_access": false,
+        "facade": false,
+        "garden": false,
+        "parking_space": false,
+        "swimming_pool": false,
+        "view": false
+      },
+      "internal": {
+        "air_condition": true,
+        "airy": true,
+        "alarm": false,
+        "attic": false,
+        "double_glass": false,
+        "elevator": true,
+        "fireplace": false,
+        "furnished": false,
+        "internal_staircase": false,
+        "night_power": false,
+        "painted": false,
+        "pets_welcome": false,
+        "playroom": false,
+        "satellite_receiver": false,
+        "secure_door": true,
+        "solar_water_heating": true,
+        "storage_space": false,
+        "underfloor_heating": false,
+        "window_screens": false
+      },
+      "kitchen": 1,
+      "living_rooms": 1,
+      "suitable_for": {
+        "commercial_use": false,
+        "holiday_home": true,
+        "investment": true,
+        "short-term_rental": true,
+        "student": true
+      }
+    },
+    "id": "50",
+    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
+    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
+    "lastmod": "2023-10-21T14:00:53.233Z",
+    "location": {
+      "address": "fdgfd",
+      "exact_location": false,
+      "location": "Central new york,new york, USA",
+      "showmap": false
+    },
+    "subtype": "Office",
+    "type": "Commerical",
+    "visible": true
+  }
+]
