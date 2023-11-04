@@ -87,6 +87,10 @@
             class="absolute left-0 z-40 hidden w-auto mt-2 origin-top-right bg-white divide-y rounded-md shadow-lg select-property-type-menu divide-slate-100 ring-1 ring-black ring-opacity-5 focus:outline-none"
             role="menu" aria-orientation="vertical" aria-labelledby="menu-button">
             <div class="py-1" role="none">
+              <a href="#" class="flex items-center px-4 py-2 text-sm group" role="menuitem" tabindex="-1"
+                id="menu-item-any">
+                Any
+              </a>
               <!-- Active: "bg-slate-100 text-slate-900", Not Active: "text-slate-700 hover:text-indigo-900" -->
               <a href="#" class="flex items-center px-4 py-2 text-sm group" role="menuitem" tabindex="-1"
                 id="menu-item-0">
@@ -360,30 +364,28 @@
             </div>
           </div>
         </div>
-        <div x-data="{ isOpen: false, from: '', to: '' }" class="relative">
-          <label id="listbox-label"
-            class="block text-sm font-medium leading-6 sm:col-span-1 text-slate-900">Construction
-            year</label>
-          <button @click="isOpen = !isOpen" type="button"
-            class="inline-flex items-center justify-between w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-900">
-            <span
-              x-html="from || to ? (from && to ? from + ' - ' + to : (from || 'Any') + ' - ' + (to || 'Any')) : 'Select Year'"></span>
 
-            <svg :class="{ 'rotate-180': isOpen }" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-              fill="currentColor" class="w-5 h-5 ml-2 -mr-1" aria-hidden="true">
+        <div class="relative" id="year-main">
+          <label id="listbox-label"
+            class="block text-sm font-medium leading-6 sm:col-span-1 text-slate-900">Construction year</label>
+          <button id="year-btn" type="button"
+            class="inline-flex items-center justify-between w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-900">
+            <span id="selected-year">Select Year</span>
+            <svg id="year-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              class="w-5 h-5 ml-2 -mr-1" aria-hidden="true">
               <path fill-rule="evenodd"
                 d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
                 clip-rule="evenodd" />
             </svg>
-
           </button>
-          <div x-show="isOpen" @click.away="isOpen = false"
-            class="absolute left-0 z-40 mt-2 origin-top-right bg-white rounded-md shadow-lg w-72 ring-1 ring-black ring-opacity-5">
+          <div id="year-dropdown"
+            class="hidden absolute left-0 z-40 mt-2 origin-top-right bg-white rounded-md shadow-lg w-72 ring-1 ring-black ring-opacity-5">
             <div class="px-4 py-2" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
               <div class="flex items-center">
-                <div class="w-1/2 pr-4">
+
+                <div class="w-1/2 pl-4">
                   <label for="year-from" class="block text-sm font-medium text-gray-700">From:</label>
-                  <select id="year-from" name="year-from" x-model="year-from"
+                  <select id="year-from" name="year-from"
                     class="w-full mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-900 focus:border-indigo-900 sm:text-sm">
                     <option value="">Any</option>
 
@@ -446,7 +448,7 @@
                   </select>
                 </div>
                 <div class="w-1/2 pl-4">
-                  <label for="year-to" class="block text-sm font-medium text-gray-700">year-To:</label>
+                  <label for="year-to" class="block text-sm font-medium text-gray-700">to:</label>
                   <select id="year-to" name="year-to" x-model="year-to"
                     class="w-full mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-900 focus:border-indigo-900 sm:text-sm">
                     <option value="">Any</option>
@@ -523,7 +525,7 @@
             class="inline-flex items-center justify-between w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-900"
             id="surface-btn">
             <span id="selected-sqm">Select sqm</span>
-            <svg id="dropdown-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+            <svg id="surface-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
               class="w-5 h-5 ml-2 -mr-1" aria-hidden="true">
               <path fill-rule="evenodd"
                 d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
@@ -538,13 +540,13 @@
                   <label for="surface-from" class="block text-sm font-medium text-gray-700">From:</label>
                   <input type="number" id="surface-from" name="surface-from"
                     class="w-full mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-900 focus:border-indigo-900 sm:text-sm"
-                    value="0" min="0">
+                    value="" min="1">
                 </div>
                 <div class="w-1/2 pl-4">
                   <label for="surface-to" class="block text-sm font-medium text-gray-700">To:</label>
                   <input type="number" id="surface-to" name="surface-to"
                     class="w-full mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-900 focus:border-indigo-900 sm:text-sm"
-                    value="0" min="0">
+                    value="" min="1">
                 </div>
               </div>
             </div>
@@ -596,34 +598,26 @@
   </div>
 
   <script>
-    function range() {
-      return {
-        minprice: 0,
-        maxprice: 100000,
-        min: 100,
-        max: 100000,
-        minthumb: 0,
-        maxthumb: 0,
+    const storedFilters = JSON.parse(localStorage.getItem("filters"));
 
-        mintrigger() {
-          this.minprice = Math.min(this.minprice, this.maxprice - 500);
-          this.minthumb =
-            ((this.minprice - this.min) / (this.max - this.min)) * 100;
-        },
+    const property_type_button = document.getElementById("property-type-menu-button");
+    const property_type_menu = document.querySelector(".select-property-type-menu");
+    const property_type_options = property_type_menu.querySelectorAll("a");
 
-        maxtrigger() {
-          this.maxprice = Math.max(this.maxprice, this.minprice + 500);
-          this.maxthumb =
-            100 - ((this.maxprice - this.min) / (this.max - this.min)) * 100;
-        },
-      };
-    }
-  </script>
-
-  <script>
     const location_input = document.getElementById("location");
     const location_dropdown = document.getElementById("location_dropdown");
     const location_options = document.querySelectorAll(".location_option");
+
+    const yearBtn = document.getElementById("year-btn")
+    const yearIcon = document.getElementById("year-icon")
+    const year_dropdown = document.getElementById("year-dropdown")
+    const year_main = document.getElementById("year-main")
+
+    const surfaceBtn = document.getElementById("surface-btn")
+    const surfaceIcon = document.getElementById("surface-icon")
+    const surface_dropdown = document.getElementById("surface_dropdown")
+    const surface_dropdown_main = document.getElementById("surface-dropdown-main")
+    const ClearAll = document.getElementById("clear-all-button")
 
     location_input.addEventListener("input", function () {
       const value = location_input.value.toLowerCase();
@@ -635,12 +629,14 @@
           location_options[i].style.display = "none";
         }
       }
-      location_dropdown.style.display = "block";
+      location_dropdown.classList.remove("hidden")
     });
-
+    location_input.addEventListener("focus", (e) => {
+      location_dropdown.classList.remove("hidden")
+    })
     document.addEventListener("click", function (event) {
       if (!location_dropdown.contains(event.target) && event.target !== location_input) {
-        location_dropdown.style.display = "none";
+        location_dropdown.classList.add("hidden")
       }
     });
 
@@ -651,28 +647,49 @@
 
         localStorage.setItem("filters", JSON.stringify(storedData));
         location_input.value = option.textContent;
-        location_dropdown.style.display = "none";
+        location_dropdown.classList.add("hidden")
         applyFilters()
 
       });
     });
     // Get references to the HTML elements
-    const property_type_button = document.getElementById("property-type-menu-button");
-    const property_type_menu = document.querySelector(".select-property-type-menu");
-    const property_type_options = property_type_menu.querySelectorAll("a");
+
     const cardContainer = document.getElementById("card-container");
     const loadMoreButton = document.getElementById("load-more");
     //all select
     const fields = document.querySelectorAll(
       "select, input[type='text'],input[type='number'], input[type='range']"
     );
-    const surfaceBtn = document.getElementById("surface-btn")
-    const surface_dropdown = document.getElementById("surface_dropdown")
-    const surface_dropdown_main = document.getElementById("surface-dropdown-main")
+
     surfaceBtn.addEventListener("click", (e) => {
       surface_dropdown.classList.toggle("hidden")
+      surfaceIcon.classList.toggle("rotate-180")
     }
     )
+    ClearAll.addEventListener("click", (e) => {
+      localStorage.removeItem("filters")
+      let surfaceFrom = document.getElementById("surface-from");
+      let surfaceTo = document.getElementById("surface-to");
+      let selectedSurface =
+        document.getElementById("selected-sqm");
+      property_type_button.childNodes[0].textContent = "Property Type"
+      location_input.value = ""
+
+      for (let i = 0; i < location_options.length; i++) {
+        const optionValue = location_options[i].textContent.toLowerCase();
+        location_options[i].style.display = "";
+      }
+      selectedSurface.textContent = "Select sqm"
+      surfaceFrom.value = ""
+      surfaceTo.value = ""
+      applyFilters()
+    })
+
+
+    yearBtn.addEventListener("click", (e) => {
+      year_dropdown.classList.toggle("hidden")
+      yearIcon.classList.toggle("rotate-180")
+    })
 
     let cards = []; // Array to store all the card data.
     let cardsLoaded = 0; // Number of cards loaded.
@@ -780,10 +797,11 @@
                 dt.location?.location
                   .toLowerCase()
                   .includes(lsData.location?.toLowerCase())) &&
-              (!lsData.hasOwnProperty("surface-from") ||
-                dt.details.sqm >= lsData["surface-from"]) &&
-              (!lsData.hasOwnProperty("surface-to") ||
-                dt.details.sqm <= lsData["surface-to"])
+
+              (!lsData["surface-from"] ||
+                (lsData["surface-from"] !== "" && dt.details.sqm >= lsData["surface-from"])) &&
+              (!lsData["surface-to"] ||
+                (lsData["surface-to"] !== "" && dt.details.sqm <= lsData["surface-to"]))
             ) {
               return true;
             }
@@ -862,13 +880,20 @@
     // Function to handle option selection and store in local storage
     async function handleOptionSelection(option) {
       const selectedText = option.textContent.trim()
+      const storedData = JSON.parse(localStorage.getItem("filters")) || {};
       // Check if the selected option is a top-level category
       typeCategory = ["Residential", "Commercial", "Land"]
       const isTopLevelCategory = typeCategory.includes(selectedText);
       // Store the selected value(s) in local storage
       if (isTopLevelCategory) {
-        localStorage.setItem("filters", JSON.stringify({ type: selectedText, subtype: "" }));
-      } else {
+        storedData.type = selectedText;
+        storedData.subtype = "";
+      }
+      else if (selectedText === "Any") {
+        storedData.type = "";
+        storedData.subtype = "";
+      }
+      else {
         const topType = {
           Home: typeCategory[0],
           Apartment: typeCategory[0],
@@ -883,10 +908,12 @@
           "Agriculture land": typeCategory[2],
           "Island": typeCategory[2],
         }
+        storedData.type = topType[selectedText];
+        storedData.subtype = selectedText;
         // const storedFilters = JSON.parse(localStorage.getItem("filters")) || {};
-        localStorage.setItem("filters", JSON.stringify({ type: topType[selectedText], subtype: selectedText }));
       }
-      property_type_button.textContent = selectedText; // Update the button text
+      localStorage.setItem("filters", JSON.stringify(storedData));
+      property_type_button.childNodes[0].textContent = selectedText; // Update the button text
       toggleDropdown(); // Close the dropdown
 
       applyFilters()
@@ -910,6 +937,11 @@
       }
       if (!surface_dropdown_main.contains(event.target)) {
         surface_dropdown.classList.add("hidden")
+        surfaceIcon.classList.remove("rotate-180")
+      }
+      if (!year_main.contains(event.target)) {
+        year_dropdown.classList.add("hidden")
+        yearIcon.classList.remove("rotate-180")
       }
     });
 
@@ -919,13 +951,22 @@
     });
 
     // Check local storage for previously selected filter
-    const storedFilters = JSON.parse(localStorage.getItem("filters"));
+
     if (storedFilters) {
-      property_type_button.textContent = storedFilters?.subtype || storedFilters?.type || property_type_button.textContent;
+      property_type_button.childNodes[0].textContent = storedFilters?.subtype || storedFilters?.type || property_type_button.childNodes[0].textContent;
       if (storedFilters?.location) {
         location_input.value = storedFilters?.location
       }
-      if (storedFilters['surface-from'] || storedFilters['surface-to']) {
+      if (storedFilters['year-from'] && storedFilters['year-to']) {
+        const yearFrom = document.getElementById("year-from");
+        const yearTo = document.getElementById("year-to");
+        yearFrom.value = storedFilters['year-from']
+        yearTo.value = storedFilters['year-to']
+        const selectedyearElement =
+          document.getElementById("selected-year");
+        selectedyearElement.textContent = `${storedFilters['year-from']} -  ${storedFilters['year-to']}`
+      }
+      if (storedFilters['surface-from'] && storedFilters['surface-to']) {
         const surfaceFrom = document.getElementById("surface-from");
         const surfaceTo = document.getElementById("surface-to");
         surfaceFrom.value = storedFilters['surface-from']
@@ -937,6 +978,29 @@
     }
 
     applyFilters()
+
+    function range() {
+      return {
+        minprice: 0,
+        maxprice: 100000,
+        min: 100,
+        max: 100000,
+        minthumb: 0,
+        maxthumb: 0,
+
+        mintrigger() {
+          this.minprice = Math.min(this.minprice, this.maxprice - 500);
+          this.minthumb =
+            ((this.minprice - this.min) / (this.max - this.min)) * 100;
+        },
+
+        maxtrigger() {
+          this.maxprice = Math.max(this.maxprice, this.minprice + 500);
+          this.maxthumb =
+            100 - ((this.maxprice - this.min) / (this.max - this.min)) * 100;
+        },
+      };
+    }
   </script>
 </body>
 
