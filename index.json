@@ -6,7 +6,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -65,9 +65,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -84,7 +83,7 @@
     "details": {
       "availability": "Available",
       "build": "2000-12-31T22:00:00.000Z",
-      "floor": "Ground",
+      "floor": 2,
       "price": 100000,
       "renovated": "",
       "sqm": 81
@@ -164,7 +163,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -223,9 +222,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -243,7 +241,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -302,9 +300,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -317,12 +314,12 @@
   },
   {
     "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
+    "description": "floor 8 Central area next to mcgill universety",
     "details": {
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 11,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -381,9 +378,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -401,7 +397,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -460,9 +456,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -480,7 +475,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -539,9 +534,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -558,7 +552,7 @@
     "details": {
       "availability": "Available",
       "build": "2000-12-31T22:00:00.000Z",
-      "floor": "Ground",
+      "floor": 2,
       "price": 100000,
       "renovated": "",
       "sqm": 8
@@ -617,8 +611,8 @@
       }
     },
     "id": "49",
-    "image": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_bgffffff_box_smart1_3.jpg",
-    "imagewebp": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_h2_box_smart1_3.webp",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "lastmod": "2023-10-21T13:33:51.739Z",
     "location": {
       "address": "xcvxc",
@@ -638,7 +632,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -697,9 +691,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -717,7 +710,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -776,9 +769,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -796,7 +788,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -855,9 +847,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -875,7 +866,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -934,9 +925,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -954,7 +944,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -1013,9 +1003,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -1032,7 +1021,7 @@
     "details": {
       "availability": "Available",
       "build": "2000-12-31T22:00:00.000Z",
-      "floor": "Ground",
+      "floor": 2,
       "price": 100000,
       "renovated": "",
       "sqm": 81
@@ -1112,7 +1101,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -1171,9 +1160,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -1191,7 +1179,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -1250,9 +1238,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -1270,7 +1257,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -1329,9 +1316,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,
@@ -1349,7 +1335,7 @@
       "availability": "Available",
       "build": "2023-12-31T22:00:00.000Z",
       "distancefromcentre": 1500,
-      "floor": "3rd",
+      "floor": 6,
       "price": 100000,
       "renovated": "",
       "sqm": 52
@@ -1408,9 +1394,8 @@
       }
     },
     "id": "50",
-    "image": "http://localhost:1313/images/properties/50317b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_box_smart1.jpeg",
-    "imagewebp": "http://localhost:1313/images/properties/b87e5ec2192c4683a2d334b41f2_120092_736x552_fill_q75_h2_box_smart1.webp",
-    "lastmod": "2023-10-21T14:00:53.233Z",
+    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
     "location": {
       "address": "fdgfd",
       "exact_location": false,

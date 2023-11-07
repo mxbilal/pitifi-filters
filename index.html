@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <style>
     /* Gallery grid with 3 images */
     .g4354332252533 {
@@ -286,77 +285,75 @@
 
         <!-- Dropdown Filter -->
 
-        <div x-data="{ isOpen: false, from: '', to: '' }" class="relative">
+        <div class="relative" id="floor-main">
           <label id="listbox-label"
             class="block text-sm font-medium leading-6 sm:col-span-1 text-slate-900">Floor</label>
-          <button @click="isOpen = !isOpen" type="button"
+          <button id="floor-btn" type="button"
             class="inline-flex items-center justify-between w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-900">
-            <span
-              x-html="from || to ? (from && to ? from + ' - ' + to : (from || 'Any') + ' - ' + (to || 'Any')) : 'Select Floor'"></span>
-
-            <svg :class="{ 'rotate-180': isOpen }" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-              fill="currentColor" class="w-5 h-5 ml-2 -mr-1" aria-hidden="true">
+            <span id="selected-floor">Select Floor</span>
+            <svg id="floor-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              class="w-5 h-5 ml-2 -mr-1" aria-hidden="true">
               <path fill-rule="evenodd"
                 d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
                 clip-rule="evenodd" />
             </svg>
           </button>
-          <div id="drop" x-show="isOpen" @click.away="isOpen = false"
-            class="absolute left-0 z-40 mt-2 origin-top-right bg-white rounded-md shadow-lg w-72 ring-1 ring-black ring-opacity-5">
+          <div id="floor-dropdown"
+            class="hidden absolute left-0 z-40 mt-2 origin-top-right bg-white rounded-md shadow-lg w-72 ring-1 ring-black ring-opacity-5">
             <div class="px-4 py-2" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
               <div class="flex items-center">
                 <div class="w-1/2 pr-4">
                   <label for="floor-from" class="block text-sm font-medium text-gray-700">From:</label>
-                  <select id="floor-from" name="floor-from" x-model="floor-from"
+                  <select id="floor-from" name="floor-from"
                     class="w-full mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-900 focus:border-indigo-900 sm:text-sm">
                     <option value="">Any</option>
                     <!-- Generate floor options from the list -->
-                    <option value="Basement">Basement</option>
-                    <option value="Lower ground">Lower ground</option>
-                    <option value="Ground">Ground</option>
-                    <option value="Upper ground">Upper ground</option>
-                    <option value="1st">1st</option>
-                    <option value="2nd">2nd</option>
-                    <option value="3rd">3rd</option>
-                    <option value="4th">4th</option>
-                    <option value="5th">5th</option>
-                    <option value="6th">6th</option>
-                    <option value="7th">7th</option>
-                    <option value="8th">8th</option>
-                    <option value="9th">9th</option>
-                    <option value="10th">10th</option>
-                    <option value="15th">15th</option>
-                    <option value="20th">20th</option>
-                    <option value="30th">30th</option>
-                    <option value="40th">40th</option>
-                    <option value="50+">50+</option>
+                    <option value="0">Basement</option>
+                    <option value="1">Lower ground</option>
+                    <option value="2">Ground</option>
+                    <option value="3">Upper ground</option>
+                    <option value="4">1st</option>
+                    <option value="5">2nd</option>
+                    <option value="6">3rd</option>
+                    <option value="7">4th</option>
+                    <option value="8">5th</option>
+                    <option value="9">6th</option>
+                    <option value="10">7th</option>
+                    <option value="11">8th</option>
+                    <option value="12">9th</option>
+                    <option value="13">10th</option>
+                    <option value="14">15th</option>
+                    <option value="15">20th</option>
+                    <option value="16">30th</option>
+                    <option value="17">40th</option>
+                    <option value="18">50+</option>
                   </select>
                 </div>
                 <div class="w-1/2 pl-4">
-                  <label for="floor-to" class="block text-sm font-medium text-gray-700">To:</label>
-                  <select id="floor-to" name="floor-to" x-model="floor-to"
+                  <label for="floor-to" class="block text-sm font-medium text-gray-700">to:</label>
+                  <select id="floor-to" name="floor-to"
                     class="w-full mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-900 focus:border-indigo-900 sm:text-sm">
                     <option value="">Any</option>
                     <!-- Generate floor options from the list -->
-                    <option value="Basement">Basement</option>
-                    <option value="Lower ground">Lower ground</option>
-                    <option value="Ground">Ground</option>
-                    <option value="Upper ground">Upper ground</option>
-                    <option value="1st">1st</option>
-                    <option value="2nd">2nd</option>
-                    <option value="3rd">3rd</option>
-                    <option value="4th">4th</option>
-                    <option value="5th">5th</option>
-                    <option value="6th">6th</option>
-                    <option value="7th">7th</option>
-                    <option value="8th">8th</option>
-                    <option value="9th">9th</option>
-                    <option value="10th">10th</option>
-                    <option value="15th">15th</option>
-                    <option value="20th">20th</option>
-                    <option value="30th">30th</option>
-                    <option value="40th">40th</option>
-                    <option value="50+">50+</option>
+                    <option value="0">Basement</option>
+                    <option value="1">Lower ground</option>
+                    <option value="2">Ground</option>
+                    <option value="3">Upper ground</option>
+                    <option value="4">1st</option>
+                    <option value="5">2nd</option>
+                    <option value="6">3rd</option>
+                    <option value="7">4th</option>
+                    <option value="8">5th</option>
+                    <option value="9">6th</option>
+                    <option value="10">7th</option>
+                    <option value="11">8th</option>
+                    <option value="12">9th</option>
+                    <option value="13">10th</option>
+                    <option value="14">15th</option>
+                    <option value="15">20th</option>
+                    <option value="16">30th</option>
+                    <option value="17">40th</option>
+                    <option value="18">50+</option>
                   </select>
                 </div>
               </div>
@@ -608,6 +605,11 @@
     const location_dropdown = document.getElementById("location_dropdown");
     const location_options = document.querySelectorAll(".location_option");
 
+    const floorBtn = document.getElementById("floor-btn")
+    const floorIcon = document.getElementById("floor-icon")
+    const floor_dropdown = document.getElementById("floor-dropdown")
+    const floor_main = document.getElementById("floor-main")
+
     const yearBtn = document.getElementById("year-btn")
     const yearIcon = document.getElementById("year-icon")
     const year_dropdown = document.getElementById("year-dropdown")
@@ -618,7 +620,28 @@
     const surface_dropdown = document.getElementById("surface_dropdown")
     const surface_dropdown_main = document.getElementById("surface-dropdown-main")
     const ClearAll = document.getElementById("clear-all-button")
-
+    
+    const floorOptions = {
+      0: 'Basement',
+      1: 'Lower ground',
+      2: 'Ground',
+      3: 'Upper ground',
+      4: '1st',
+      5: '2nd',
+      6: '3rd',
+      7: '4th',
+      8: '5th',
+      9: '6th',
+      10: '7th',
+      11: '8th',
+      12: '9th',
+      13: '10th',
+      14: '15th',
+      15: '20th',
+      16: '30th',
+      17: '40th',
+      18: '50+',
+    };
     location_input.addEventListener("input", function () {
       const value = location_input.value.toLowerCase();
       for (let i = 0; i < location_options.length; i++) {
@@ -672,6 +695,8 @@
       let surfaceTo = document.getElementById("surface-to");
       let selectedSurface =
         document.getElementById("selected-sqm");
+      let selectedfloor =
+        document.getElementById("selected-floor");
       property_type_button.childNodes[0].textContent = "Property Type"
       location_input.value = ""
 
@@ -680,6 +705,7 @@
         location_options[i].style.display = "";
       }
       selectedSurface.textContent = "Select sqm"
+      selectedfloor.textContent = "Select Floor"
       surfaceFrom.value = ""
       surfaceTo.value = ""
       applyFilters()
@@ -689,6 +715,10 @@
     yearBtn.addEventListener("click", (e) => {
       year_dropdown.classList.toggle("hidden")
       yearIcon.classList.toggle("rotate-180")
+    })
+    floorBtn.addEventListener("click", (e) => {
+      floor_dropdown.classList.toggle("hidden")
+      floorIcon.classList.toggle("rotate-180")
     })
 
     let cards = []; // Array to store all the card data.
@@ -797,6 +827,10 @@
                 dt.location?.location
                   .toLowerCase()
                   .includes(lsData.location?.toLowerCase())) &&
+              (!lsData["floor-from"] ||
+                (lsData["floor-from"] !== "" && dt.details.floor >= lsData["floor-from"])) &&
+              (!lsData["floor-to"] ||
+                (lsData["floor-to"] !== "" && dt.details.floor <= lsData["floor-to"])) &&
               (!lsData["year-from"] ||
                 (lsData["year-from"] !== "" && dt.details.build.split("-")[0] >= lsData["year-from"])) &&
               (!lsData["year-to"] ||
@@ -846,7 +880,7 @@
       const selectedToFloor = document.getElementById("floor-to").value;
       const selectedFloorElement = document.getElementById("selected-floor");
       if (selectedFromFloor && selectedToFloor) {
-        selectedFloorElement.textContent = `${selectedFromFloor}-${selectedToFloor}`;
+        selectedFloorElement.textContent = `${floorOptions[selectedFromFloor]}-${floorOptions[selectedToFloor]}`;
       } else {
         selectedFloorElement.textContent = "Select Floor";
       }
@@ -946,6 +980,10 @@
         year_dropdown.classList.add("hidden")
         yearIcon.classList.remove("rotate-180")
       }
+      if (!floor_main.contains(event.target)) {
+        floor_dropdown.classList.add("hidden")
+        floorIcon.classList.remove("rotate-180")
+      }
     });
 
     // event listenr for all select dropdown
@@ -977,6 +1015,15 @@
         const selectedSurfaceElement =
           document.getElementById("selected-sqm");
         selectedSurfaceElement.textContent = `From ${storedFilters['surface-from']} To ${storedFilters['surface-to']}`
+      }
+      if (storedFilters['floor-from'] && storedFilters['floor-to']) {
+        const floorFrom = document.getElementById("floor-from");
+        const floorTo = document.getElementById("floor-to");
+        floorFrom.value = storedFilters['floor-from']
+        floorTo.value = storedFilters['floor-to']
+        const selectedfloorElement =
+          document.getElementById("selected-floor");
+        selectedfloorElement.textContent = `From ${floorOptions[storedFilters['floor-from']]} To ${floorOptions[storedFilters['floor-to']]}`
       }
     }
 
