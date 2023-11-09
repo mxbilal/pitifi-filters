@@ -59,13 +59,14 @@
         <div class="relative sm:col-span-1">
           <label id="listbox-label" class="block text-sm font-medium leading-6 text-slate-900">Select Property
             Type</label>
-          <div class="mt-2">
+          <div class="mt-2" id="property_main">
 
-            <button type="button"
+            <button
               class="select-property-type inline-flex w-full justify-between gap-x-1.5 rounded-md bg-white px-3 h-10 py-3 text-sm font-semibold text-slate-900 shadow-sm ring-1 ring-inset ring-indigo-900 hover:bg-slate-50"
-              id="property-type-menu-button" aria-expanded="true" aria-haspopup="true">
+              id="property-type-menu-button">
               Property Type
-              <svg class="w-5 h-5 -mr-1 text-slate-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <svg id="property-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                class="w-5 h-5 ml-2 -mr-1" aria-hidden="true" style="pointer-events: none;">
                 <path fill-rule="evenodd"
                   d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
                   clip-rule="evenodd" />
@@ -597,9 +598,11 @@
   <script>
     const storedFilters = JSON.parse(localStorage.getItem("filters"));
 
+    // const property_main = document.getElementById("property_main");
     const property_type_button = document.getElementById("property-type-menu-button");
     const property_type_menu = document.querySelector(".select-property-type-menu");
     const property_type_options = property_type_menu.querySelectorAll("a");
+    const property_icon = document.getElementById("property-icon")
 
     const location_input = document.getElementById("location");
     const location_dropdown = document.getElementById("location_dropdown");
@@ -620,7 +623,7 @@
     const surface_dropdown = document.getElementById("surface_dropdown")
     const surface_dropdown_main = document.getElementById("surface-dropdown-main")
     const ClearAll = document.getElementById("clear-all-button")
-    
+
     const floorOptions = {
       0: 'Basement',
       1: 'Lower ground',
@@ -693,10 +696,16 @@
       localStorage.removeItem("filters")
       let surfaceFrom = document.getElementById("surface-from");
       let surfaceTo = document.getElementById("surface-to");
-      let selectedSurface =
-        document.getElementById("selected-sqm");
-      let selectedfloor =
-        document.getElementById("selected-floor");
+      let selectedSurface = document.getElementById("selected-sqm");
+      let selectedfloor = document.getElementById("selected-floor");
+      let selectedyear = document.getElementById("selected-year");
+
+      let floorFrom = document.getElementById("floor-from");
+      let floorTo = document.getElementById("floor-to");
+
+      let yearFrom = document.getElementById("year-from");
+      let yearTo = document.getElementById("year-to");
+
       property_type_button.childNodes[0].textContent = "Property Type"
       location_input.value = ""
 
@@ -706,8 +715,13 @@
       }
       selectedSurface.textContent = "Select sqm"
       selectedfloor.textContent = "Select Floor"
+      selectedyear.textContent = "Select Year"
       surfaceFrom.value = ""
       surfaceTo.value = ""
+      floorFrom.value = ""
+      floorTo.value = ""
+      yearFrom.value = ""
+      yearTo.value = ""
       applyFilters()
     })
 
@@ -828,9 +842,9 @@
                   .toLowerCase()
                   .includes(lsData.location?.toLowerCase())) &&
               (!lsData["floor-from"] ||
-                (lsData["floor-from"] !== "" && dt.details.floor >= lsData["floor-from"])) &&
+                (lsData["floor-from"] !== "" && parseInt(dt.details.floor) >= parseInt(lsData["floor-from"]))) &&
               (!lsData["floor-to"] ||
-                (lsData["floor-to"] !== "" && dt.details.floor <= lsData["floor-to"])) &&
+                (lsData["floor-to"] !== "" && parseInt(dt.details.floor) <= parseInt(lsData["floor-to"]))) &&
               (!lsData["year-from"] ||
                 (lsData["year-from"] !== "" && dt.details.build.split("-")[0] >= lsData["year-from"])) &&
               (!lsData["year-to"] ||
@@ -912,6 +926,7 @@
     // Function to toggle the dropdown menu
     function toggleDropdown() {
       property_type_menu.classList.toggle("hidden");
+      property_icon.classList.toggle("rotate-180")
     }
 
     // Function to handle option selection and store in local storage
@@ -958,6 +973,8 @@
     }
     // Event listener for button click
     property_type_button.addEventListener("click", toggleDropdown);
+    property_icon.addEventListener("click", toggleDropdown);
+    // property_main.addEventListener("click", toggleDropdown);
 
     // Event listeners for option selection
     property_type_options.forEach((option) => {
@@ -971,6 +988,7 @@
     document.addEventListener("click", (event) => {
       if (!property_type_menu.contains(event.target) && event.target !== property_type_button) {
         property_type_menu.classList.add("hidden");
+        property_icon.classList.remove("rotate-180")
       }
       if (!surface_dropdown_main.contains(event.target)) {
         surface_dropdown.classList.add("hidden")

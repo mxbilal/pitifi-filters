@@ -1,1409 +1,202 @@
 [
   {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
+    "date": "1950-10-30T08:56:43.831Z",
+    "description": "Year 1950, floor 0",
     "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
+      "build": "1950-10-30T08:56:43.831Z",
+      "floor": "0",
+      "price": 95000,
+      "sqm": 9
     },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "id": "0",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1950-10-30T08:56:43.831Z",
     "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
     },
     "subtype": "Apartment",
-    "type": "Residential",
-    "visible": true
+    "type": "Residential"
   },
   {
-    "date": "2023-10-21T13:33:51.703Z",
-    "description": "description here",
+    "date": "1960-10-27T09:27:43.288Z",
+    "description": "Year 1960, floor 1",
     "details": {
-      "availability": "Available",
+      "build": "1960-10-27T09:27:43.288Z",
+      "floor": "1",
+      "price": 111000,
+      "sqm": 19
+    },
+    "id": "1",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1960-10-27T09:27:43.288Z",
+    "location": {
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
+    },
+    "subtype": "Apartment",
+    "type": "Residential"
+  },
+  {
+    "date": "1950-10-30T08:56:43.831Z",
+    "description": "Year 1970, floor 2",
+    "details": {
+      "build": "1970-10-27T09:27:43.288Z",
+      "floor": "2",
+      "price": 95000,
+      "sqm": 29
+    },
+    "id": "2",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1950-10-30T08:56:43.831Z",
+    "location": {
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
+    },
+    "subtype": "Apartment",
+    "type": "Residential"
+  },
+  {
+    "date": "1960-10-27T09:27:43.288Z",
+    "description": "Year 1980, floor 3",
+    "details": {
+      "build": "1980-12-31T22:00:00.000Z",
+      "floor": "3",
+      "price": 111000,
+      "sqm": 39
+    },
+    "id": "3",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1960-10-27T09:27:43.288Z",
+    "location": {
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
+    },
+    "subtype": "Apartment",
+    "type": "Residential"
+  },
+  {
+    "date": "1950-10-30T08:56:43.831Z",
+    "description": "Year 1990, floor 4",
+    "details": {
+      "build": "1990-10-27T09:27:43.288Z",
+      "floor": "4",
+      "price": 95000,
+      "sqm": 49
+    },
+    "id": "4",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1950-10-30T08:56:43.831Z",
+    "location": {
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
+    },
+    "subtype": "Apartment",
+    "type": "Residential"
+  },
+  {
+    "date": "1960-10-27T09:27:43.288Z",
+    "description": "Year 2000, floor 5",
+    "details": {
       "build": "2000-12-31T22:00:00.000Z",
-      "floor": 2,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 81
+      "floor": "5",
+      "price": 111000,
+      "sqm": 59
     },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 2,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": true,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": false,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "49",
-    "image": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_bgffffff_box_smart1_3.jpg",
-    "imagewebp": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_h2_box_smart1_3.webp",
-    "lastmod": "2023-10-21T13:33:51.739Z",
+    "id": "5",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1960-10-27T09:27:43.288Z",
     "location": {
-      "address": "xcvxc",
-      "exact_location": false,
-      "location": "Chicago",
-      "map": "{\"type\":\"Point\",\"coordinates\":[23.54533,38.34544545]}",
-      "showmap": true
-    },
-    "subtype": "Buildable land",
-    "type": "Land",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
-    },
-    "subtype": "Home",
-    "type": "Residential",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
-    },
-    "subtype": "Shop",
-    "type": "Commerical",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "floor 8 Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 11,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
     },
     "subtype": "Apartment",
-    "type": "Residential",
-    "visible": true
+    "type": "Residential"
   },
   {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
+    "date": "1950-10-30T08:56:43.831Z",
+    "description": "Year 2010, floor 6",
     "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
+      "build": "2010-10-27T09:27:43.288Z",
+      "floor": "6",
+      "price": 95000,
+      "sqm": 69
     },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "id": "6",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1950-10-30T08:56:43.831Z",
     "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
     },
     "subtype": "Apartment",
-    "type": "Residential",
-    "visible": true
+    "type": "Residential"
   },
   {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
+    "date": "1960-10-27T09:27:43.288Z",
+    "description": "Year 2020, floor 7",
     "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
+      "build": "2020-12-31T22:00:00.000Z",
+      "floor": "7",
+      "price": 111000,
+      "sqm": 79
     },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "id": "7",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1960-10-27T09:27:43.288Z",
     "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
     },
     "subtype": "Apartment",
-    "type": "Residential",
-    "visible": true
+    "type": "Residential"
   },
   {
-    "date": "2023-10-21T13:33:51.703Z",
-    "description": "ardescription here",
+    "date": "1950-10-30T08:56:43.831Z",
+    "description": "Year empty, floor 8",
     "details": {
-      "availability": "Available",
-      "build": "2000-12-31T22:00:00.000Z",
-      "floor": 2,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 8
+      "build": "",
+      "floor": "8",
+      "price": 95000,
+      "sqm": 89
     },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 2,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": true,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": false,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "49",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "lastmod": "2023-10-21T13:33:51.739Z",
+    "id": "8",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1950-10-30T08:56:43.831Z",
     "location": {
-      "address": "xcvxc",
-      "exact_location": false,
-      "location": "Chicago",
-      "map": "{\"type\":\"Point\",\"coordinates\":[23.54533,38.34544545]}",
-      "showmap": true
-    },
-    "subtype": "Buildable land",
-    "type": "Land",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
-    },
-    "subtype": "Home",
-    "type": "Residential",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
-    },
-    "subtype": "Shop",
-    "type": "Commerical",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
     },
     "subtype": "Apartment",
-    "type": "Residential",
-    "visible": true
+    "type": "Residential"
   },
   {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
+    "date": "1960-10-27T09:27:43.288Z",
+    "description": "Year empty, floor 9",
     "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
+      "build": "",
+      "floor": "9",
+      "price": 111000,
+      "sqm": 99
     },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
+    "id": "9",
+    "image": "",
+    "imagewebp": "",
+    "lastmod": "1960-10-27T09:27:43.288Z",
     "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
-    },
-    "subtype": "Office",
-    "type": "Commerical",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
+      "address": "Lorem",
+      "location": "Lorem ipsum, dolor, sit amet"
     },
     "subtype": "Apartment",
-    "type": "Residential",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T13:33:51.703Z",
-    "description": "description here",
-    "details": {
-      "availability": "Available",
-      "build": "2000-12-31T22:00:00.000Z",
-      "floor": 2,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 81
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 2,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": true,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": false,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "49",
-    "image": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_bgffffff_box_smart1_3.jpg",
-    "imagewebp": "http://localhost:1313/images/properties/hu1642c80b1ba84880a80374541c712639_2846763_736x552_fill_q75_h2_box_smart1_3.webp",
-    "lastmod": "2023-10-21T13:33:51.739Z",
-    "location": {
-      "address": "xcvxc",
-      "exact_location": false,
-      "location": "Chicago",
-      "map": "{\"type\":\"Point\",\"coordinates\":[23.54533,38.34544545]}",
-      "showmap": true
-    },
-    "subtype": "Buildable land",
-    "type": "Land",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
-    },
-    "subtype": "Home",
-    "type": "Residential",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
-    },
-    "subtype": "Shop",
-    "type": "Commerical",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
-    },
-    "subtype": "Apartment",
-    "type": "Residential",
-    "visible": true
-  },
-  {
-    "date": "2023-10-21T14:00:53.202Z",
-    "description": "Central area next to mcgill universety",
-    "details": {
-      "availability": "Available",
-      "build": "2023-12-31T22:00:00.000Z",
-      "distancefromcentre": 1500,
-      "floor": 6,
-      "price": 100000,
-      "renovated": "",
-      "sqm": 52
-    },
-    "features": {
-      "bathrooms": 1,
-      "bedroom": 1,
-      "construction": {
-        "neoclassical": false,
-        "penthouse": false,
-        "preserved": false,
-        "renovated": false,
-        "requires_renovation": false,
-        "unfinished": false
-      },
-      "external": {
-        "awning": false,
-        "balcony": false,
-        "corner": false,
-        "disability_access": false,
-        "facade": false,
-        "garden": false,
-        "parking_space": false,
-        "swimming_pool": false,
-        "view": false
-      },
-      "internal": {
-        "air_condition": true,
-        "airy": true,
-        "alarm": false,
-        "attic": false,
-        "double_glass": false,
-        "elevator": true,
-        "fireplace": false,
-        "furnished": false,
-        "internal_staircase": false,
-        "night_power": false,
-        "painted": false,
-        "pets_welcome": false,
-        "playroom": false,
-        "satellite_receiver": false,
-        "secure_door": true,
-        "solar_water_heating": true,
-        "storage_space": false,
-        "underfloor_heating": false,
-        "window_screens": false
-      },
-      "kitchen": 1,
-      "living_rooms": 1,
-      "suitable_for": {
-        "commercial_use": false,
-        "holiday_home": true,
-        "investment": true,
-        "short-term_rental": true,
-        "student": true
-      }
-    },
-    "id": "50",
-    "image": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "imagewebp": "https://www.pchotels.com/asset/welcome-image/pckarachi.jpg",
-    "location": {
-      "address": "fdgfd",
-      "exact_location": false,
-      "location": "Central new york,new york, USA",
-      "showmap": false
-    },
-    "subtype": "Office",
-    "type": "Commerical",
-    "visible": true
+    "type": "Residential"
   }
 ]
