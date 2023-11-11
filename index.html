@@ -846,9 +846,9 @@
               (!lsData["floor-to"] ||
                 (lsData["floor-to"] !== "" && parseInt(dt.details.floor) <= parseInt(lsData["floor-to"]))) &&
               (!lsData["year-from"] ||
-                (lsData["year-from"] !== "" && dt.details.build.split("-")[0] >= lsData["year-from"])) &&
+                (lsData["year-from"] !== "" && dt.details.build !== "" && dt.details.build.split("-")[0] >= lsData["year-from"])) &&
               (!lsData["year-to"] ||
-                (lsData["year-to"] !== "" && dt.details.build.split("-")[0] <= lsData["year-to"])) &&
+                (lsData["year-to"] !== "" && dt.details.build !== "" && dt.details.build.split("-")[0] <= lsData["year-to"])) &&
               (!lsData["surface-from"] ||
                 (lsData["surface-from"] !== "" && dt.details.sqm >= lsData["surface-from"])) &&
               (!lsData["surface-to"] ||
@@ -883,8 +883,8 @@
       const selectedFromYear = document.getElementById("year-from").value;
       const selectedToYear = document.getElementById("year-to").value;
       const selectedYearElement = document.getElementById("selected-year");
-      if (selectedFromYear && selectedToYear) {
-        selectedYearElement.textContent = `${selectedFromYear}-${selectedToYear}`;
+      if (selectedFromYear || selectedToYear) {
+        selectedYearElement.textContent = `${selectedFromYear|| "Any"}-${selectedToYear || "Any"}`;
       } else {
         selectedYearElement.textContent = "Select Year";
       }
@@ -893,8 +893,8 @@
       const selectedFromFloor = document.getElementById("floor-from").value;
       const selectedToFloor = document.getElementById("floor-to").value;
       const selectedFloorElement = document.getElementById("selected-floor");
-      if (selectedFromFloor && selectedToFloor) {
-        selectedFloorElement.textContent = `${floorOptions[selectedFromFloor]}-${floorOptions[selectedToFloor]}`;
+      if (selectedFromFloor || selectedToFloor) {
+        selectedFloorElement.textContent = `${floorOptions[selectedFromFloor] || "Any"}-${floorOptions[selectedToFloor] || "Any"}`;
       } else {
         selectedFloorElement.textContent = "Select Floor";
       }
@@ -904,8 +904,8 @@
       const surfaceTo = document.getElementById("surface-to").value;
       const selectedSurfaceElement =
         document.getElementById("selected-sqm");
-      if (surfaceFrom && surfaceTo) {
-        selectedSurfaceElement.textContent = `From ${surfaceFrom} To ${surfaceTo}`;
+      if (surfaceFrom || surfaceTo) {
+        selectedSurfaceElement.textContent = `From ${surfaceFrom || "Any"} To ${surfaceTo || "Any" }`;
       } else {
         selectedSurfaceElement.textContent = "Select Sqm";
       }
@@ -1016,32 +1016,32 @@
       if (storedFilters?.location) {
         location_input.value = storedFilters?.location
       }
-      if (storedFilters['year-from'] && storedFilters['year-to']) {
+      if (storedFilters['year-from'] || storedFilters['year-to']) {
         const yearFrom = document.getElementById("year-from");
         const yearTo = document.getElementById("year-to");
         yearFrom.value = storedFilters['year-from']
         yearTo.value = storedFilters['year-to']
         const selectedyearElement =
           document.getElementById("selected-year");
-        selectedyearElement.textContent = `${storedFilters['year-from']} -  ${storedFilters['year-to']}`
+        selectedyearElement.textContent = `${storedFilters['year-from'] || "Any"} -  ${storedFilters['year-to'] || "Any"}`
       }
-      if (storedFilters['surface-from'] && storedFilters['surface-to']) {
+      if (storedFilters['surface-from'] || storedFilters['surface-to']) {
         const surfaceFrom = document.getElementById("surface-from");
         const surfaceTo = document.getElementById("surface-to");
         surfaceFrom.value = storedFilters['surface-from']
         surfaceTo.value = storedFilters['surface-to']
         const selectedSurfaceElement =
           document.getElementById("selected-sqm");
-        selectedSurfaceElement.textContent = `From ${storedFilters['surface-from']} To ${storedFilters['surface-to']}`
+        selectedSurfaceElement.textContent = `From ${storedFilters['surface-from'] || "Any" } To ${storedFilters['surface-to'] || "Any"}`
       }
-      if (storedFilters['floor-from'] && storedFilters['floor-to']) {
+      if (storedFilters['floor-from'] || storedFilters['floor-to']) {
         const floorFrom = document.getElementById("floor-from");
         const floorTo = document.getElementById("floor-to");
         floorFrom.value = storedFilters['floor-from']
         floorTo.value = storedFilters['floor-to']
         const selectedfloorElement =
           document.getElementById("selected-floor");
-        selectedfloorElement.textContent = `From ${floorOptions[storedFilters['floor-from']]} To ${floorOptions[storedFilters['floor-to']]}`
+        selectedfloorElement.textContent = `From ${floorOptions[storedFilters['floor-from']] || "Any"} To ${floorOptions[storedFilters['floor-to']] || "Any"}`
       }
     }
 
